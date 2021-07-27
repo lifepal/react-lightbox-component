@@ -9,7 +9,7 @@ import './Image.css'
 const ZOOM_STEP = 1.10;
 const [MAX_ZOOM_SIZE, MIN_ZOOM_SIZE] = [Math.pow(ZOOM_STEP, 30), Math.pow(1 / ZOOM_STEP, 10)];
 
-export default class ImageContent extends React.Component {
+export default class Image extends React.Component {
   constructor(props) {
     super(props);
     this.resetImageInitialState = this.resetImageInitialState.bind(this);

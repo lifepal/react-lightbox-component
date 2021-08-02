@@ -227,7 +227,7 @@ export default class Image extends React.Component {
 
   render() {
     let [props, state] = [this.props, this.state];
-    let background = `url(${props.src})`;
+    let background = `url('${props.src}')`;
     let modifiers, loader;
     if(props.showImageModifiers) {
       modifiers = (
